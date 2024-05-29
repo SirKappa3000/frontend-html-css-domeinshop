@@ -15,8 +15,23 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
+main {
+    padding: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
 
 /*////////////////////////
     2. Typography
@@ -31,19 +46,130 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+header {
+    background: url('../assets/images/mountains.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
 
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
+h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 70%;
+    max-width: 300px;
+    margin-right: -4px;
+}
+
+.search-box button {
+    padding: 11px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
+.testimonials, .support, .faq {
+    margin-bottom: 40px;
+}
 
+.testimonials h2, .support h2, .faq h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
 
+.testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.testimonial p {
+    margin-left: 60px;
+    font-style: italic;
+}
+
+.testimonial-author {
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+.author-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.testimonial-author span {
+    vertical-align: middle;
+}
 
 /*///////////// 3.3 Support /////////////*/
+.support img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border-radius: 8px;
+}
 
+.support p {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.support button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 /*///////////// 3.4 Faq /////////////*/
+.faq ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-
+.faq ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
 
 /*///////////// 3.5 Footer /////////////*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
